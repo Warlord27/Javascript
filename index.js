@@ -13,31 +13,31 @@
 //3. Javascript variable container to stores data values
 //4. datatype in Javascript
 //Numbers
-var number1 = 34;
-var number2 = 62;
+let number1 = 34;
+let number2 = 62;
 // console.log(number2+number1);
 
 //string
-var str1 = "ths is a string";
-var str2 = 'ths is also string';
+let str1 = "ths is a string";
+let str2 = 'ths is also string';
 
 //objects
-var marks = {
+let marks = {
     Ravi: 34,
     Shubham: 78,
     Harry: 99.977
 }
 
 //booleans
-var a = true;
-var b = false;
+let a = true;
+let b = false;
 // console.log(a,b);
-var und;
-var und2 = undefined;
+let und;
+let und2 = undefined;
 // console.log(marks);
 // console.log(und2);
 
-var n = null;
+let n = null;
 // console.log(n);
 
 
@@ -46,14 +46,14 @@ var n = null;
 2.Reference:arraya and object
 */
 
-var arr = [1, 2, 3, 4, "bablu", "Tanbir", 7, 8, 9,];
+let arr = [1, 2, 3, 4, "bablu", "Tanbir", 7, 8, 9,];
 // console.log(arr);
 
 // operator in Jvascript
 //arithmetic operator
 
-var a = 500;
-var b = 100;
+let a = 500;
+let b = 100;
 /*console.log("The valuae of a + b",a+b);
 console.log("The valuae of a - b",a-b);
 console.log("The valuae of a / b",a/b);
@@ -61,15 +61,15 @@ console.log("The valuae of a * b",a*b);*/
 
 //Assingment Operators
 
-var c = b;
+let c = b;
 //c+= 250;
 //c-= 250;
 //c*= 250;
 //c/= 250;
 // console.log(c);
 
-var x = 34;
-var y = 56;
+let x = 34;
+let y = 56;
 /*console.log(x == y);
 console.log(x <= y);
 console.log(x >= y);
